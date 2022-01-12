@@ -29,11 +29,11 @@ const Header = () => {
           </li>
 
           <li>
-            <Link to="C:\Users\gross\OneDrive\Desktop\porfolio-hw\Web Developer Resume JRG.pdf">Resume</Link>
+           <a href={process.env.PUBLIC_URL + '/resume.pdf'} download='Jaylin-Resume.pdf'>Resume</a>
           </li>
 
           <li>
-            <Link to="https://github.com/JayRGross?tab=repositories">Projects</Link>
+          <a href='https://github.com/JayRGross' target='_blank' rel="noopener noreferrer">Projects</a>
           </li>
 
           <li>
