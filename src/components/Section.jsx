@@ -9,10 +9,9 @@ const Section = () => {
             <div className='container'>
 
                 <div className='texts'>
-                    <h1>Hello My Name is</h1>
+                    <h1>Hello, My Name is</h1>
                     <h1 className='h1-big'>Jaylin Gross</h1>
                     <p> A 26 year old Full Stack Web Developer looking to colaborate on projects and sharpen my skills. </p>
-                    <button className='text-button'>My Work</button>
                 </div>
 
                 <div className='image'>
