@@ -33,7 +33,10 @@ const Header = () => {
           </li>
 
           <li>
-          <a href='https://github.com/JayRGross' target='_blank' rel="noopener noreferrer">Projects</a>
+          <a href='https://github.com/JayRGross' target='_blank' rel="noopener noreferrer">Github</a>
+          </li>
+          <li>
+          <a href='https://www.linkedin.com/in/jaylin-gross-279588214/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
           </li>
 
           <li>
