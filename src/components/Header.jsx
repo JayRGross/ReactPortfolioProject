@@ -43,10 +43,36 @@ const Header = () => {
             <Link to="/contact">Contact</Link>
           </li>
 
-          
+          <div className="hamburger-menu">
+            <MenuOutlined className="menu" onClick={showMenu} />
+          </div>
         </ul>
       </nav>
+     <nav className={open ? 'slider active' : 'slider'}>
+        <ul className="slider-ul" onClick={showMenu}>
+          {Data.map((item,index) => {
+          return (
+            <li key={index} className={item.className}>
+                <Link to={item.path}>{item.text}</Link>
+            </li>
+          )
+         })}
+        </ul>
 
+      </nav>
+      <nav className={open ? 'slider active' : 'slider'}>
+        <ul className="slider-ul" onClick={showMenu}>
+          {Data.map((item,index) => {
+          return (
+            <li key={index} className={item.className}>
+                <Link to={item.path}>{item.text}</Link>
+            </li>
+          )
+         })}
+        </ul>
+
+      </nav>
+  
   
 
     </div>
