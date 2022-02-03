@@ -35,7 +35,7 @@ const Header = () => {
           <a href='https://www.linkedin.com/in/jaylin-gross-279588214/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
           </li>
           <li>
-          <a href='https://docs.google.com/document/d/1MN3pc2n0Z5MM-vo4H5hAYOaEjmT4pVVPbZRKutEa8Zc/edit?usp=sharing' target='_blank' rel="noopener noreferrer">Resume</a> 
+          <a href='https://docs.google.com/document/d/1sKKaB4Np2c7H7eMI9kX_FB26oV3g4AihIiW5MIhHJSk/edit?usp=sharing' target='_blank' rel="noopener noreferrer">Resume</a> 
           </li>
 
 
